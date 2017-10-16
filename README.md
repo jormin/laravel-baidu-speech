@@ -57,7 +57,7 @@
 2. 语音合成
     
     ```php
-       Jormin\BaiduSpeech\BaiduSpeech::combine($text, $userID, $lan', $speed, $pitch, $volume, $person);
+       Jormin\BaiduSpeech\BaiduSpeech::combine($text, $userID, $lan, $speed, $pitch, $volume, $person);
     ```
          
     接口字段：
