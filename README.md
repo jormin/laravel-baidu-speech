@@ -46,7 +46,7 @@
     | ------------ | ------------ | ------------ | ------------ |
     | filePath | String | 语音文件本地路径，该字段和url字段二选一，优先使用此项 | Y |
     | url | String | 语音文件URL路径，该字段和filePath字段二选一 | Y |
-    | callbac | String | 回调地址 | Y |
+    | callback | String | 回调地址 | Y |
     | format | String | 语音文件格式，可选值 ['pcm', 'wav', 'opus', 'speex', 'amr']，默认为wav | Y |
     | rate | Integer | 采样率，可选值 [8000, 16000]，默认为16000 | Y |
     | lan | String | 采样率，可选值 ['zh', 'ct', 'en']，默认为zh | Y |
