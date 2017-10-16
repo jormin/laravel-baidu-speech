@@ -37,7 +37,7 @@
 1. 语音识别
     
     ```php
-       Jormin\BaiduSpeech\BaiduSpeech::recognize($filePath, $url, $callback);
+       Jormin\BaiduSpeech\BaiduSpeech::recognize($filePath, $url, $callback, $format, $rate, $lan);
     ```
      
     接口字段：
