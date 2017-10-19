@@ -71,6 +71,7 @@
     | pitch | Integer | 音调，取值0-9，默认为5中语调 | Y |
     | volume | Integer | 音量，取值0-15，默认为5中音量 | Y |
     | person | Integer | 发音人选择, 0为女声，1为男声，3为情感合成-度逍遥，4为情感合成-度丫丫，默认为普通女 | Y |
+    | fileName | String | 文件存储路径名称，默认存储在`public/audios/`目录下 | Y |
     
     接口返回字段详细见 [百度官方文档](https://cloud.baidu.com/doc/SPEECH/TTS-Online-PHP-SDK.html).
 
