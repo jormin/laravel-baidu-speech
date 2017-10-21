@@ -1,4 +1,4 @@
-集成了 [百度AI](http://ai.baidu.com//) 官方的Api接口。
+集成了 [百度AI](http://ai.baidu.com/) 官方的Api接口。
 
 ## 安装
 
