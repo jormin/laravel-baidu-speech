@@ -1,4 +1,4 @@
-集成了 [百度](http://www.tuling123.com/) 官方的Api接口。
+集成了 [百度AI](http://ai.baidu.com//) 官方的Api接口。
 
 ## 安装
 
@@ -57,7 +57,7 @@
 2. 语音合成
     
     ```php
-       Jormin\BaiduSpeech\BaiduSpeech::combine($text, $userID, $lan, $speed, $pitch, $volume, $person);
+       Jormin\BaiduSpeech\BaiduSpeech::combine($text, $userID, $lan, $speed, $pitch, $volume, $person, $filename);
     ```
          
     接口字段：
