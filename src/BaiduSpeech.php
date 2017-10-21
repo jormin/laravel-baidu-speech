@@ -99,7 +99,7 @@ class BaiduSpeech{
      * @param $fileName string 存储文件路径名称
      * @return array
      */
-    public static function combine($text, $userID=null, $lan='zh', $speed=5, $pitch=5, $volume=5, $person=0, $fileName)
+    public static function combine($text, $userID=null, $lan='zh', $speed=5, $pitch=5, $volume=5, $person=0, $fileName=null)
     {
         $return = ['success'=>false, 'msg'=>'网络超时'];
         if(!$text){
